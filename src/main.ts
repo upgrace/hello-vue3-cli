@@ -3,4 +3,13 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-createApp(App).use(store).use(router).mount('#app')
+import {UseIview} from './components/index'
+
+import './assets/base.css'
+
+
+let app = createApp(App)
+
+app = UseIview(app)
+
+app.use(store).use(router).mount('#app')

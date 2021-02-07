@@ -8,6 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "ant-design-vue": "^2.0.0-rc.9",
+    "babel-plugin-import": "^1.13.3",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
@@ -25,9 +27,10 @@
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "@vue/eslint-config-typescript": "^5.0.2",
+    "css-loader": "^5.0.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
-    "stylus": "^0.54.7",
+    "style-loader": "^2.0.0",
     "stylus-loader": "^3.0.2",
     "typescript": "~3.9.3"
   }

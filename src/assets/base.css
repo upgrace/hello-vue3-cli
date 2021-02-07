@@ -1,0 +1,35 @@
+@import 'index.styl';
+/* 为什么不生效*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  font-size: 14px;
+}
+
+.mr16 {
+  margin-right: 16px;
+}
+
+.mb24 {
+  margin-bottom: 24px;
+}
+
+.tc {
+  text-align: center;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.c-red {
+  color: #cd5c5c;
+}
